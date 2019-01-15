@@ -1,10 +1,15 @@
 .b-body {
+    border-top: solid 4px var(--color-light-secondary);
     background-color: var(--color-light-primary);
     padding: 2vh 40px;
     font-family: var(--title-font);
 }
 
 .g-topic {
+    padding-bottom: 1.5rem;
+}
+
+.g-topic-title {
     font-family: var(--title-font);
     color: var(--color-dark-primary);
     text-transform: uppercase;
@@ -42,3 +47,8 @@
     text-align: right;
     color: var(--color-light-secondary);
 }
+
+ol {
+    list-style: upper-roman inside;
+}
+

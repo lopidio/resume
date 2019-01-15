@@ -5,6 +5,7 @@
     width: 100%;
     padding-top: 5vh;
     padding-bottom: 3.5vh;
+    border-bottom: solid 4px var(--color-dark-secondary);
 }
 
 .g-title {
