@@ -1,0 +1,23 @@
+:root {
+    --font: 'Comfortaa', cursive;
+    --main-dark-color: #2b2b2b;
+}
+
+#title {
+    font-family: var(--font);
+    background-color: var(--main-dark-color);
+    color: white;
+    font-size: 60px;
+    /*height: 20vh;*/
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 5vh;
+    padding-bottom: 10vh;
+}
+
+@media (max-width: 600px) {
+    #title {
+        font-size: 48px;
+    }
+}
