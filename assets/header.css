@@ -1,5 +1,5 @@
 .g-header {
-    font-family: var(--font);
+    font-family: var(--title-font);
     background-color: var(--primary-dark-color);
     color: var(--primary-light-color);
     width: 100%;
@@ -55,6 +55,7 @@
     .g-main-title {
         font-size: 48px;
     }
+
     .g-subtitle {
         font-size: 13px;
     }

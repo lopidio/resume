@@ -1,0 +1,28 @@
+.b-body {
+    background-color: var(--primary-light-color);
+    padding: 2vh 40px;
+    font-family: var(--title-font);
+}
+
+.g-topic {
+    font-family: var(--title-font);
+    color: var(--primary-dark-color);
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: left;
+    font-size: 17px;
+    padding: 8px;
+}
+
+.g-topic-text, .g-topic-text > p {
+    font-family: var(--title-font);
+    color: var(--secondary-dark-color);
+    text-align: justify;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.g-topic-text > p::first-letter {
+    font-size: 120%;
+    padding-left: 30px;
+}
