@@ -1,23 +1,51 @@
 :root {
     --font: 'Comfortaa', cursive;
     --main-dark-color: #2b2b2b;
+    --main-light-color: #fffce1;
+}
+
+.g-header {
+    font-family: var(--font);
+    background-color: var(--main-dark-color);
+    color: var(--main-light-color);
+    width: 100%;
+    padding-top: 5vh;
+    padding-bottom: 3.5vh;
 }
 
 #title {
-    font-family: var(--font);
-    background-color: var(--main-dark-color);
-    color: white;
     font-size: 60px;
-    /*height: 20vh;*/
-    width: 100%;
     text-align: center;
     text-transform: uppercase;
-    padding-top: 5vh;
-    padding-bottom: 10vh;
+}
+
+.g-links {
+    padding-right: 5vw;
+    padding-left: 5vw;
+}
+
+.g-link {
+    text-align: left;
+    text-decoration: none;
+    color: var(--main-light-color);
+    font-size: 20px;
+}
+
+.g-link-icon {
+    width: 48px;
+    height: auto;
+    padding-right: 5px;
+    filter: invert(1);
 }
 
 @media (max-width: 600px) {
     #title {
         font-size: 48px;
     }
+
+    .g-link {
+        text-align: left;
+        font-size: 14px;
+    }
+
 }
