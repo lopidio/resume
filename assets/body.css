@@ -1,12 +1,12 @@
 .b-body {
-    background-color: var(--primary-light-color);
+    background-color: var(--color-light-primary);
     padding: 2vh 40px;
     font-family: var(--title-font);
 }
 
 .g-topic {
     font-family: var(--title-font);
-    color: var(--primary-dark-color);
+    color: var(--color-dark-primary);
     text-transform: uppercase;
     font-weight: bold;
     text-align: left;
@@ -16,7 +16,7 @@
 
 .g-topic-text, .g-topic-text > p {
     font-family: var(--title-font);
-    color: var(--secondary-dark-color);
+    color: var(--color-dark-secondary);
     text-align: justify;
     font-size: 14px;
     margin-bottom: 5px;
@@ -25,4 +25,20 @@
 .g-topic-text > p::first-letter {
     font-size: 120%;
     padding-left: 30px;
+}
+
+.g-lang-full::before {
+    content: ' \25CF';
+    font-size: 24px;
+    color: var(--color-dark-primary);
+    padding-right: 0;
+    text-align: right;
+}
+
+.g-lang-empty::before {
+    content: ' \25CF';
+    font-size: 24px;
+    padding: 0;
+    text-align: right;
+    color: var(--color-light-secondary);
 }

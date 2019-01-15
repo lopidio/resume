@@ -1,7 +1,7 @@
 .g-header {
     font-family: var(--title-font);
-    background-color: var(--primary-dark-color);
-    color: var(--primary-light-color);
+    background-color: var(--color-dark-primary);
+    color: var(--color-light-primary);
     width: 100%;
     padding-top: 5vh;
     padding-bottom: 3.5vh;
@@ -31,12 +31,12 @@
 .g-link {
     text-align: left;
     text-decoration: none;
-    color: var(--primary-light-color);
+    color: var(--color-light-primary);
     font-size: 18px;
 }
 
 .g-link:hover {
-    color: var(--secondary-light-color);
+    color: var(--color-light-secondary);
 }
 
 .g-link-icon {
