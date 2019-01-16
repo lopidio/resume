@@ -52,8 +52,7 @@ ol {
 }
 
 .g-lang-full:hover, .g-lang-empty:hover {
-    transform: scale(2);
-    filter: hue-rotate(90deg);
+    transform: scale(2) translateY(-2px);
 }
 
 

@@ -3,25 +3,53 @@
     background-color: var(--color-dark-primary);
     color: var(--color-light-primary);
     width: 100%;
-    padding-top: 5vh;
-    padding-bottom: 3.5vh;
+    padding: 5vh 0 3.5vh;
     border-bottom: solid 4px var(--color-dark-secondary);
+
+    position: sticky;
+    top: 0;
+    z-index: 1071;
+    transition: 200ms ease all;
+}
+
+.g-header.shrink {
+    padding: 1vh 0 0;
 }
 
 .g-title {
     text-align: center;
     text-transform: uppercase;
     padding-bottom: 5px;
+    transition: 200ms ease all;
+}
+
+.g-title.shrink {
+    padding-bottom: 0;
 }
 
 .g-main-title {
     font-size: 70px;
     cursor: pointer;
     font-weight: bolder;
+    transition: 200ms ease all;
+    color: var(--color-light-primary);
+}
+
+.g-main-title.shrink {
+    padding-left: 20px;
+    text-align: left;
+    font-size: 100%;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 .g-subtitle {
     font-size: 20px;
+    transition: 200ms ease all;
+}
+
+.g-subtitle.shrink {
+    display: none;
 }
 
 .g-links {
@@ -29,11 +57,16 @@
     padding-left: 5vw;
 }
 
+.g-links.shrink {
+    display: none;
+}
+
 .g-link {
     text-align: left;
     text-decoration: none;
     color: var(--color-light-primary);
     font-size: 18px;
+    transition: 200ms ease all;
 }
 
 .g-link:hover {
