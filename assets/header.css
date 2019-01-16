@@ -82,7 +82,7 @@
 }
 
 .g-gui-logo {
-    width: 26px;
+    width: 0;
     height: auto;
     padding-right: 5px;
     color: var(--color-light-secondary);
@@ -93,6 +93,7 @@
 }
 
 .g-gui-logo.shrink {
+    width: 26px;
     display: inline;
 }
 

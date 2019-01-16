@@ -7,7 +7,7 @@ function changeTitle() {
 
 const headerHeight = $('.g-header').css('height').replace(/[^-\d\.]/g, '') / 2;
 window.onscroll = function () {
-    if (document.documentElement.scrollTop > headerHeight) {
+    if (document.documentElement.scrollTop > headerHeight / 10) {
         $('.g-header').addClass('shrink');
         $('.g-links').addClass('shrink');
         $('.g-title').addClass('shrink');
