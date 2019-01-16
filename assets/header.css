@@ -81,6 +81,21 @@
     transition: 200ms ease all;
 }
 
+.g-gui-logo {
+    width: 26px;
+    height: auto;
+    padding-right: 5px;
+    color: var(--color-light-secondary);
+    transition: 200ms ease all;
+    display: none;
+    position: relative;
+    top: -8px;
+}
+
+.g-gui-logo.shrink {
+    display: inline;
+}
+
 .g-link-icon:hover {
     transform: scale(1.1) rotate(5deg);
 }
