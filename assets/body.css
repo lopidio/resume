@@ -71,7 +71,7 @@
     transform: scale(2) translateY(-2px);
 }
 
-.g-timeline-right {
+.g-timeline {
     border-left: 1px solid var(--color-dark-primary);
 }
 
