@@ -22,7 +22,7 @@
     padding: 8px;
 }
 
-.g-topic-subtitle, .g-topic-subtitle p {
+.g-topic-title-minor, .g-topic-title-minor p {
     font-family: var(--title-font);
     color: var(--color-dark-primary);
     text-transform: capitalize;
@@ -48,6 +48,7 @@
 }
 
 .g-lang-full {
+    cursor: pointer;
     color: var(--color-dark-primary);
     font-size: 15px;
     letter-spacing: -8px;
@@ -55,6 +56,7 @@
 }
 
 .g-lang-empty {
+    cursor: pointer;
     color: var(--color-light-secondary);
     font-size: 15px;
     letter-spacing: -8px;
@@ -66,19 +68,28 @@
 }
 
 .g-timeline-right {
-    border-left: 2px solid var(--color-dark-primary);
-    padding-left: 8px;
+    border-left: 1px solid var(--color-dark-primary);
 }
 
 .g-topic-date {
     font-family: var(--title-font);
     color: var(--color-dark-primary);
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-weight: bold;
     text-align: left;
-    font-size: 12px;
-    padding: 2px;
+    font-size: 10px;
+    position: relative;
+    left: -8px;
+    transition: 200ms ease all;
+}
 
+.g-timeline-dot {
+    cursor: pointer;
+    color: var(--color-dark-primary);
+    font-size: 8px;
+    position: relative;
+    padding-right: 2px;
+    transition: 00ms ease all;
 }
 
 @media (max-width: 820px) {

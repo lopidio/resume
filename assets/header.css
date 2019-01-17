@@ -3,7 +3,8 @@
     background-color: var(--color-dark-primary);
     color: var(--color-light-primary);
     width: 100%;
-    padding: 5vh 0 5vh;
+    padding: 5vh 0 0;
+
 
     position: sticky;
     top: 0;
@@ -12,7 +13,7 @@
 }
 
 .g-header.shrink {
-    padding: 1vh 0 1vh;
+    padding: 1vh 0 0;
 }
 
 .g-title {
@@ -42,18 +43,19 @@
     padding-bottom: 0;
 }
 
-.g-subtitle {
+.g-title-minor {
     font-size: 20px;
     transition: 200ms ease all;
 }
 
-.g-subtitle.shrink {
+.g-title-minor.shrink {
     display: none;
 }
 
 .g-links {
     padding-right: 5vw;
     padding-left: 5vw;
+    padding-bottom: 2.5vh;
 }
 
 .g-links.shrink {
@@ -88,7 +90,7 @@
     transition: 500ms ease all;
     display: none;
     position: relative;
-    top: -8px;
+    top: -10px;
 }
 
 .g-gui-logo.shrink {
@@ -120,7 +122,7 @@
         font-size: 48px;
     }
 
-    .g-subtitle {
+    .g-title-minor {
         font-size: 13px;
     }
 
