@@ -1,26 +1,17 @@
-let titles = ["Lopídio", "Virgs", "Guilherme Moraes"];
+let titles = ["Lopídio", "Guilherme Moraes", "Virgs"];
 
 function changeTitle() {
     titles = titles.concat(titles.splice(0, 1));
     $(".g-main-title").text(titles[0]);
 }
+changeTitle();
 
 const headerHeight = $('.g-header').css('height').replace(/[^-\d\.]/g, '') / 2;
 window.onscroll = function () {
     const scrollTop = document.documentElement.scrollTop;
     if (scrollTop > 1) {
-        $('.g-header').addClass('shrink');
-        $('.g-links').addClass('shrink');
-        $('.g-title').addClass('shrink');
-        $('.g-title-minor').addClass('shrink');
-        $('.g-main-title').addClass('shrink');
-        $('.g-gui-logo').addClass('shrink');
+        $('.g-shrinkable').addClass('shrink');
     } else if (scrollTop === 0){
-        $('.g-header').removeClass('shrink');
-        $('.g-links').removeClass('shrink');
-        $('.g-title').removeClass('shrink');
-        $('.g-title-minor').removeClass('shrink');
-        $('.g-main-title').removeClass('shrink');
-        $('.g-gui-logo').removeClass('shrink');
+        $('.g-shrinkable').removeClass('shrink');
     }
 };
