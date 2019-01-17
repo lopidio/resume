@@ -3,7 +3,7 @@
     background-color: var(--color-dark-primary);
     color: var(--color-light-primary);
     width: 100%;
-    padding: 5vh 0 0;
+    padding: 1vh 0 0;
 
     position: sticky;
     top: 0;
@@ -52,7 +52,7 @@
 .g-links {
     padding-right: 5vw;
     padding-left: 5vw;
-    padding-bottom: 2.5vh;
+    padding-bottom: 1vh;
 }
 
 .g-links.shrink {
@@ -63,7 +63,7 @@
     text-align: left;
     text-decoration: none;
     color: var(--color-light-primary);
-    font-size: 18px;
+    font-size: 14px;
     transition: 200ms ease all;
 }
 
@@ -72,7 +72,7 @@
 }
 
 .g-link-icon {
-    width: 48px;
+    width: 36px;
     height: auto;
     padding-right: 5px;
     filter: invert(1);
@@ -111,7 +111,7 @@
     width: 26px;
     filter: invert(1);
     height: auto;
-    padding-right: 2px;
+    padding-right: 1px;
     transition: 200ms ease all;
     position: relative;
     top: -4px;
@@ -146,12 +146,11 @@
     }
 
     .g-link {
-        text-align: left;
-        font-size: 12px;
+        font-size: 10px;
     }
 
     .g-link-icon {
-        width: 40px;
+        width: 30px;
     }
 
 }
@@ -164,6 +163,6 @@
 
     .g-link {
         text-align: left;
-        font-size: 14px;
+        font-size: 12px;
     }
 }
