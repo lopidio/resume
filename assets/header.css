@@ -3,8 +3,7 @@
     background-color: var(--color-dark-primary);
     color: var(--color-light-primary);
     width: 100%;
-    padding: 5vh 0 3.5vh;
-    border-bottom: solid 4px var(--color-dark-secondary);
+    padding: 5vh 0 5vh;
 
     position: sticky;
     top: 0;
@@ -13,7 +12,7 @@
 }
 
 .g-header.shrink {
-    padding: 1vh 0 0;
+    padding: 1vh 0 1vh;
 }
 
 .g-title {
@@ -85,8 +84,8 @@
     width: 0;
     height: auto;
     padding-right: 5px;
-    color: var(--color-light-secondary);
-    transition: 200ms ease all;
+    opacity: 0;
+    transition: 500ms ease all;
     display: none;
     position: relative;
     top: -8px;
@@ -97,8 +96,23 @@
     display: inline;
 }
 
+.g-gui-logo:hover {
+    transform: scale(1.5) rotate(2deg);
+}
+
+.g-main-title:hover > .g-gui-logo {
+    opacity: 1;
+    filter: blur(20%);
+}
+
 .g-link-icon:hover {
     transform: scale(1.1) rotate(5deg);
+}
+
+.g-header-body-divider {
+    width: 100%;
+    border-top: solid 4px var(--color-dark-secondary);
+    border-bottom: solid 4px var(--color-light-secondary);
 }
 
 @media (max-width: 820px) {

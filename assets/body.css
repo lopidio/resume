@@ -1,5 +1,4 @@
 .g-body {
-    border-top: solid 4px var(--color-light-secondary);
     background-color: var(--color-light-primary);
     padding: 2vh 40px;
     font-family: var(--title-font);
