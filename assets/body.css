@@ -33,7 +33,7 @@
 }
 
 .g-topic-text, .g-topic-text > p {
-    font-family: var(--title-font);
+    font-family: Arial;
     color: var(--color-dark-secondary);
     text-align: justify;
     font-size: 14px;
