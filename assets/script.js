@@ -23,4 +23,4 @@ function getYearsFromNow(date)
     return Math.trunc(diff*10/365.25)/10;
 }
 
-$('#timeInLastJobElement').text(getYearsFromNow(new Date(2017, 7)) + ' years');
+document.getElementById('timeInLastJobElement').innerHTML = getYearsFromNow(new Date(2017, 7)) + ' <span orb="years">years</span>';

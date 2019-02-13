@@ -32,9 +32,11 @@
 <div class="g-header container-fluid g-shrinkable">
     <div class="g-title g-shrinkable">
         <div class="float-left ml-sm-2 ml-1 g-left-icons g-shrinkable">
+            <a onclick="orb.translateTo(en)"><img src="./assets/images/us-flag.png" alt="us language"
+                                                           class="g-flag g-shrinkable p-0"></a>
+            <a onclick="orb.translateTo(pt_br)"><img src="./assets/images/brazil-flag.png" alt="us language"
+                                                              class="g-flag g-shrinkable p-0"></a>
             <img src="./assets/images/gui-logo.png" alt="gui logo" class="g-gui-logo g-shrinkable p-0">
-            <a href="#" onclick="orb.translateTo(en)"><img src="./assets/images/us-flag.png" alt="us language" class="g-flag g-shrinkable p-0"></a>
-            <a href="#" onclick="orb.translateTo(pt_br)"><img src="./assets/images/brazil-flag.png" alt="us language" class="g-flag g-shrinkable p-0"></a>
         </div>
         <span class="g-main-title g-shrinkable" ondblclick="changeTitle()"></span>
         <div class="g-shrink-icons g-shrinkable float-right mr-sm-2 mr-1">
@@ -76,8 +78,8 @@
 <div class="g-body">
     <ol class="container-fluid mx-0 px-1 px-sm-2 px-md-5 g-topic-list row">
         <li class="col-12 g-topic">
-            <span class="g-topic-title">Summary</span>
-            <div class="g-topic-text">
+            <span orb="summary" class="g-topic-title">Summary</span>
+            <div orb="summary-text" class="g-topic-text">
                 <p>
                     I am a doer. Enthusiastic about everything, definitely in love with life and the desire to evolve
                     everyone's abilities, including mine. Full of personal projects and goals and the strong inclination
@@ -98,7 +100,7 @@
             </div>
         </li>
         <li class="col-12 col-md-4 g-topic">
-            <span class="g-topic-title">Languages</span>
+            <span orb="languages" class="g-topic-title">Languages</span>
             <div class="g-topic-text">
                 <p class="row">
                     <span class="col-6 align-self-center" style="text-align: justify">Português</span>
@@ -115,9 +117,9 @@
             </div>
         </li>
         <li class="col-12 col-md-4 g-topic">
-            <span class="g-topic-title">Personal Skills</span>
+            <span orb="personalSkills" class="g-topic-title">Personal Skills</span>
             <div class="g-topic-text">
-                <p class="g-topic-text">
+                <p orb="personalSkillsText" class="g-topic-text">
                     Fast learner; learning lover; creativity; teamwork; organization; natural
                     teacher; listener; patience; speaker; persuasive flexibility; integrity;
                     (good) joke teller; really funny; good humor; and lottery winner.
@@ -125,9 +127,9 @@
             </div>
         </li>
         <li class="col-12 col-md-4 g-topic">
-            <span class="g-topic-title">Hobbies</span>
+            <span orb="hobbies" class="g-topic-title">Hobbies</span>
             <div class="g-topic-text">
-                <ul class="pl-2">
+                <ul orb="hobbiesList" class="pl-2">
                     <li>Rubik's puzzles;</li>
                     <li>Soccer;</li>
                     <li>Dance;</li>
@@ -138,8 +140,8 @@
             </div>
         </li>
         <li class="col-12 col-md-6 g-topic">
-            <span class="g-topic-title">Conference Presentations</span>
-            <div class="g-topic-text">
+            <span orb="conferencePresentations" class="g-topic-title">Conference Presentations</span>
+            <div orb="conferencePresentationsText" class="g-topic-text">
                 <p>
                     I've done quite a few conference presentations and software development classes, both large and
                     small, on different subjects, specially on game development and software architecture. My highest
@@ -154,8 +156,8 @@
             </div>
         </li>
         <li class="col-12 col-md-6 g-topic">
-            <span class="g-topic-title">Professional Skills</span>
-            <div class="g-topic-text">
+            <span orb="professionalSkills" class="g-topic-title">Professional Skills</span>
+            <div orb="professionalSkillsText" class="g-topic-text">
                 <p>
                     Software architecture; object orientation principles; design patterns; agile philosophy; tests
                     automation; clean coder; programming thinking; systems integration; relational and non-relational

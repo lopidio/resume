@@ -65,10 +65,13 @@
 }
 
 .g-left-icons.shrink {
-    display: flex;
+    display: inline;
+    position: relative;
+    top: -3px;
 }
 
 .g-flag {
+    cursor: pointer;
     position: relative;
     top: -4px;
     width: 26px;
