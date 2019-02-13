@@ -31,9 +31,13 @@
 <body>
 <div class="g-header container-fluid g-shrinkable">
     <div class="g-title g-shrinkable">
-        <img src="./assets/images/gui-logo.png" alt="gui logo" class="g-gui-logo float-left g-shrinkable ml-2">
-        <span class="g-main-title g-shrinkable " ondblclick="changeTitle()"></span>
-        <div class="g-shrink-icons g-shrinkable float-right mr-2">
+        <div class="float-left ml-sm-2 ml-1 g-left-icons g-shrinkable">
+            <img src="./assets/images/gui-logo.png" alt="gui logo" class="g-gui-logo g-shrinkable p-0">
+            <a href="#" onclick="orb.translateTo(en)"><img src="./assets/images/us-flag.png" alt="us language" class="g-flag g-shrinkable p-0"></a>
+            <a href="#" onclick="orb.translateTo(pt_br)"><img src="./assets/images/brazil-flag.png" alt="us language" class="g-flag g-shrinkable p-0"></a>
+        </div>
+        <span class="g-main-title g-shrinkable" ondblclick="changeTitle()"></span>
+        <div class="g-shrink-icons g-shrinkable float-right mr-sm-2 mr-1">
             <a href="https://github.com/lopidio">
                 <img src="./assets/images/github-logo.png" alt="github logo" class="g-shrink-icon-small">
             </a>
@@ -47,7 +51,7 @@
                 <img src="./assets/images/linkedin-logo.png" alt="linkedin logo" class="g-shrink-icon-small">
             </a>
         </div>
-        <h5 class="g-title-minor g-shrinkable">Software Development Consultant</h5>
+        <h5 orb="subtitle" class="g-title-minor g-shrinkable">Software Development Consultant</h5>
     </div>
     <div class="g-links row justify-content-between g-shrinkable">
         <a class="g-link col-12 col-sm-6 col-lg-5 pb-1 pb-sm-0" href="https://github.com/lopidio">
@@ -304,6 +308,10 @@
 
     </ol>
 </div>
+
+<script src="./assets/languages/en-us.js"></script>
+<script src="./assets/languages/pt-br.js"></script>
+<script src="./assets/orb.js"></script>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

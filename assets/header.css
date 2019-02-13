@@ -27,6 +27,7 @@
 }
 
 .g-main-title {
+    display: inline-block;
     font-size: 50px;
     cursor: pointer;
     font-weight: bolder;
@@ -59,6 +60,29 @@
     display: none;
 }
 
+.g-left-icons {
+    display: grid;
+}
+
+.g-left-icons.shrink {
+    display: flex;
+}
+
+.g-flag {
+    position: relative;
+    top: -4px;
+    width: 26px;
+    height: auto;
+    padding-right: 5px;
+    filter: grayscale(0.85);
+    transition: 200ms ease all;
+}
+
+.g-flag:hover {
+    transform: scale(1.25) rotate(12deg);
+    filter: grayscale(0);
+}
+
 .g-link {
     text-align: left;
     text-decoration: none;
@@ -82,20 +106,22 @@
 .g-gui-logo {
     height: auto;
     padding-right: 5px;
-    transition: 500ms ease all;
     display: none;
     position: relative;
-    top: -8px;
+    top: -3px;
+    transition: 1000ms ease opacity, 2000ms ease transform, 50000ms ease filter;
 }
 
 .g-gui-logo.shrink {
-    width: 26px;
+    width: 20px;
     display: inline;
+    opacity: 0;
 }
 
 .g-gui-logo:hover {
-    transform: scale(1.5) rotate(2deg);
-    filter: blur(20%);
+    transform: scale(1.5) rotate(10deg);
+    filter: blur(50%);
+    opacity: 0.9;
 }
 
 .g-shrink-icons {
@@ -111,7 +137,6 @@
     width: 26px;
     filter: invert(1);
     height: auto;
-    padding-right: 1px;
     transition: 200ms ease all;
     position: relative;
     top: -4px;
@@ -127,13 +152,25 @@
 
 .g-header-body-divider {
     width: 100%;
-    border-top: solid 4px var(--color-dark-secondary);
-    border-bottom: solid 4px var(--color-light-secondary);
+    border-top: solid 3px var(--color-dark-secondary);
+    border-bottom: solid 3px var(--color-light-secondary);
 }
 
 @media (max-width: 820px) {
     .g-main-title {
-        font-size: 30px;
+        font-size: 25px;
+    }
+
+    .g-main-title.shrink {
+        font-size: 70%;
+    }
+
+    .g-shrink-icon-small {
+        width: 20px;
+    }
+
+    .g-flag {
+        width: 20px;
     }
 
     .g-title-minor {

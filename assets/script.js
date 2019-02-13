@@ -6,7 +6,7 @@ function changeTitle() {
 }
 changeTitle();
 
-const headerHeight = $('.g-header').css('height').replace(/[^-\d\.]/g, '') / 2;
+// const headerHeight = $('.g-header').css('height').replace(/[^-\d\.]/g, '') / 2;
 window.onscroll = function () {
     const scrollTop = document.documentElement.scrollTop;
     if (scrollTop > 1) {
