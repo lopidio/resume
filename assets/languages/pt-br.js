@@ -58,7 +58,7 @@ pt_br = {
         "                        href=\"http://lopidio.github.io/stacker\"\n" +
         "                        class=\"g-topic-text\" style=\"color: #9FB630\">stacker</a>.\n" +
         "                </p>",
-    professionalSkills: "Habilidades Profissionals",
+    professionalSkills: "Habilidades Profissionais",
     professionalSkillsText: "                <p>\n" +
         "                    Arquitetura de software; princípios de orientação ao objeto; padrões de projeto; filosofia" +
         "                    ágil; automação de testes; codificador limpo; integração de sistemas; banco de dados " +
