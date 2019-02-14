@@ -1,6 +1,17 @@
 en = {
     _language: 'en',
     years: 'years',
+    now: 'Now',
+    aug2017: 'Aug/2017',
+    jul2017: 'Jul/2017',
+    jan2015: 'Jan/2015',
+    dec2014: 'Dec/2014',
+    may2010: 'May/2010',
+    jan2017: "Jan/2017",
+    feb2017: "Feb/2017",
+    apr2015: "Apr/2015",
+    sep2007: "Sep/2007",
+    onHold: "On Hold",
     subtitle: 'Software Development Consultant',
     summary: 'Summary',
     "summary-text": "<p>     I am a doer. Enthusiastic about everything, definitely in love with life and the desire to evolve\n" +
@@ -31,8 +42,8 @@ en = {
         "                    <li>Astronomy;</li>\n" +
         "                    <li>Minesweeper; and</li>\n" +
         "                    <li>Game development.</li>",
-    conferencePresentations: "Conferences Presentation",
-    conferencePresentationsText: "<p>\n" +
+    presentations: "Presentations",
+    presentationsText: "<p>\n" +
         "                    I've done quite a few conference presentations and software development classes, both large and\n" +
         "                    small, on different subjects, specially on game development and software architecture. My highest\n" +
         "                    profile presentation was at <a\n" +
@@ -49,5 +60,52 @@ en = {
         "                    automation; clean coder; programming thinking; systems integration; relational and non-relational\n" +
         "                    databases; cloud services; game development; microservices; distributed systems; internet of things;\n" +
         "                    continuous delivery; fullstack web development; mobile; embedded systems; linux; etc.\n" +
-        "                </p>\n"
+        "                </p>\n",
+    professionalExperience: "Professional Experience",
+    thoughtWorksJobTitle: "Thoughtworks - Software Development Consultant Senior",
+    thoughtWorksJobText: "<p class=\"g-topic-text\">\n" +
+        "                                Four different projects of the very first client in less than a year and a half.\n" +
+        "                                From embedded systems with C/C++, frontend technologies with ReactJS/Redux to cloud\n" +
+        "                                solutions with Java/GoCD. What explicits what I've said about myself having multiple\n" +
+        "                                valencies. Agile consulting skills in order to obtain message driven and distributed " +
+        "                                systems and provide a digital platform strategy. Which means, offer an approach that " +
+        "                                sets free the power that the company already possessed.\n" +
+        "                            </p>",
+    bematechJobTitle: "Bematech - Product Development Analyst Senior",
+    bematechJobText: "<p class=\"g-topic-text\">\n" +
+        "                                Main developer and main maintainer of one of the key products at the time. Besides doing\n" +
+        "                                that, usually I had to have soft skills to deal with customers and the government, the\n" +
+        "                                biggest stakeholders.\n" +
+        "                            </p>\n" +
+        "                            <p class=\"g-topic-text\">\n" +
+        "                                Modeling the architecture and system behavior of the first IoT project of the\n" +
+        "                                company: a smart printer capable of capture telemetry, printed paper, connection status,\n" +
+        "                                etc. Which demanded embedded microservices, desktop applications, fullstack web\n" +
+        "                                development and AWS knowledge.\n" +
+        "                            </p>",
+    bimoJobTitle: "Bimo UFC - System Analyst",
+    bimoJobText: "<p class=\"g-topic-text\">\n" +
+        "                                Developing C/C++ embedded systems and Objective-C mobile games. Mining data for the\n" +
+        "                                State government.\n" +
+        "                            </p>",
+    institutionalEducation: "Institutional Education",
+    utfprTitle: "UTFPR - Master of Science in Applied Computing",
+    utfprText: "<p class=\"g-topic-text\">\n" +
+        "                                Researching on how to bring value from current microservice principles and standards to\n" +
+        "                                game development architecture. What are the commons and how it can take benefits from\n" +
+        "                                it.\n" +
+        "                            </p>",
+    upTitle: "Universidade Positivo - Specialization in Agile Software Engineering",
+    upText: "<p class=\"g-topic-text\">\n" +
+        "                                I've incorporated agile values to standard software development processes, guaranteeing\n" +
+        "                                an undeniable quality of the product. I also learnt current models, concepts, practices\n" +
+        "                                and technology of the world standard for implementation and institutionalization of\n" +
+        "                                software engineering.\n" +
+        "                            </p>",
+    ueceTitle: "UECE - Bachelor in Computer Science with emphasis in Software Engineering",
+    ueceText: "<p class=\"g-topic-text\">\n" +
+        "                                Object Oriented Programming, Programming Languages Concepts, Design Patterns, Computer\n" +
+        "                                Graphics, Data Structures, Human Machine Interface, Project Management, System Analysis\n" +
+        "                                etc.\n" +
+        "                            </p>",
 };

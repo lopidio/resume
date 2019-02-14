@@ -33,9 +33,9 @@
     <div class="g-title g-shrinkable">
         <div class="float-left ml-sm-2 ml-1 g-left-icons g-shrinkable">
             <a onclick="orb.translateTo(en)"><img src="./assets/images/us-flag.png" alt="us language"
-                                                           class="g-flag g-shrinkable p-0"></a>
+                                                  class="g-flag g-shrinkable p-0"></a>
             <a onclick="orb.translateTo(pt_br)"><img src="./assets/images/brazil-flag.png" alt="us language"
-                                                              class="g-flag g-shrinkable p-0"></a>
+                                                     class="g-flag g-shrinkable p-0"></a>
             <img src="./assets/images/gui-logo.png" alt="gui logo" class="g-gui-logo g-shrinkable p-0">
         </div>
         <span class="g-main-title g-shrinkable" ondblclick="changeTitle()"></span>
@@ -140,8 +140,8 @@
             </div>
         </li>
         <li class="col-12 col-md-6 g-topic">
-            <span orb="conferencePresentations" class="g-topic-title">Conference Presentations</span>
-            <div orb="conferencePresentationsText" class="g-topic-text">
+            <span orb="presentations" class="g-topic-title">Presentations</span>
+            <div orb="presentationsText" class="g-topic-text">
                 <p>
                     I've done quite a few conference presentations and software development classes, both large and
                     small, on different subjects, specially on game development and software architecture. My highest
@@ -168,12 +168,12 @@
         </li>
 
         <li class="col-12 col-md-6 g-topic pr-0">
-            <span class="g-topic-title">Professional Experience</span><br>
+            <span orb="professionalExperience" class="g-topic-title">Professional Experience</span><br>
             <ol class="container-fluid" reversed type="1">
                 <li class="pb-2">
-                    <span class="g-topic-title-minor">Thoughtworks - Software Development Consultant Senior</span>
+                    <span orb="thoughtWorksJobTitle" class="g-topic-title-minor">Thoughtworks - Software Development Consultant Senior</span>
                     <div class="row">
-                        <div class="col pr-2">
+                        <div orb="thoughtWorksJobText" class="col pr-2">
                             <p class="g-topic-text">
                                 Four different projects of the very first client in less than a year and a half.
                                 From embedded systems with C/C++, frontend technologies with ReactJS/Redux to cloud
@@ -185,18 +185,21 @@
                         </div>
                         <div class="col-auto g-timeline px-1">
                             <div class="d-flex flex-column" style="height: 100%">
-                                <span class="g-topic-date mb-auto float-left"><i class="material-icons g-timeline-dot">fiber_manual_record</i>Now</span>
-                                <span id="timeInLastJobElement" class="my-auto pl-2 g-timeline-range"></span>
-                                <span class="g-topic-date mt-auto float-left"><i class="material-icons g-timeline-dot">fiber_manual_record</i>Aug/2017</span>
+                                <span class="g-topic-date mb-auto float-left"><i class="material-icons g-timeline-dot">fiber_manual_record</i><span
+                                        orb="now">Now</span></span>
+                                <span class="my-auto pl-2 g-timeline-range"><span id="timeInLastJobElement"></span><span
+                                        orb="years">years</span></span>
+                                <span class="g-topic-date mt-auto float-left"><i class="material-icons g-timeline-dot">fiber_manual_record</i><span
+                                        orb="aug2017">Aug/2017</span></span>
                             </div>
                         </div>
                     </div>
                 </li>
 
                 <li class="pb-2">
-                    <span class="g-topic-title-minor">Bematech - Product Developer Senior</span>
+                    <span orb="bematechJobTitle" class="g-topic-title-minor">Bematech - Product Developer Senior</span>
                     <div class="row">
-                        <div class="col pr-2">
+                        <div orb="bematechJobText" class="col pr-2">
                             <p class="g-topic-text">
                                 Main developer and main maintainer of one of the key products at the time. Besides doing
                                 that, usually I had to have softskills to deal with customers and the government, the
@@ -211,18 +214,20 @@
                         </div>
                         <div class="col-auto g-timeline px-1">
                             <div class="d-flex flex-column" style="height: 100%">
-                                <span class="g-topic-date mb-auto float-left"><i class="material-icons g-timeline-dot">fiber_manual_record</i>Jul/2017</span>
-                                <span class="my-auto pl-2 g-timeline-range">2.5 years</span>
-                                <span class="g-topic-date mt-auto float-left"><i class="material-icons g-timeline-dot">fiber_manual_record</i>Jan/2015</span>
+                                <span class="g-topic-date mb-auto float-left"><i class="material-icons g-timeline-dot">fiber_manual_record</i><span
+                                        orb="jul2017">Jul/2017</span></span>
+                                <span class="my-auto pl-2 g-timeline-range">2.5 <span orb="years">years</span></span>
+                                <span class="g-topic-date mt-auto float-left"><i class="material-icons g-timeline-dot">fiber_manual_record</i><span
+                                        orb="jan2015">Jan/2015</span></span>
                             </div>
                         </div>
                     </div>
                 </li>
 
                 <li class="pb-2">
-                    <span class="g-topic-title-minor">Bimo UFC - System Analyst</span>
+                    <span orb="bimoJobTitle" class="g-topic-title-minor">Bimo UFC - System Analyst</span>
                     <div class="row">
-                        <div class="col pr-2">
+                        <div orb="bimoJobText" class="col pr-2">
                             <p class="g-topic-text">
                                 Developing C/C++ embedded systems and Objective-C mobile games. Mining data for the
                                 State government.
@@ -230,9 +235,11 @@
                         </div>
                         <div class="col-auto g-timeline px-1">
                             <div class="d-flex flex-column" style="height: 100%">
-                                <span class="g-topic-date mb-auto float-left"><i class="material-icons g-timeline-dot">fiber_manual_record</i>Dec/2014</span>
-                                <span class="my-auto pl-2 g-timeline-range">4.7 years</span>
-                                <span class="g-topic-date mt-auto float-left"><i class="material-icons g-timeline-dot">fiber_manual_record</i>May/2010</span>
+                                <span class="g-topic-date mb-auto float-left"><i class="material-icons g-timeline-dot">fiber_manual_record</i><span
+                                        orb="dec2014">Dec/2014</span></span>
+                                <span class="my-auto pl-2 g-timeline-range">4.7 <span orb="years">years</span></span>
+                                <span class="g-topic-date mt-auto float-left"><i class="material-icons g-timeline-dot">fiber_manual_record</i><span
+                                        orb="may2010">May/2010</span></span>
                             </div>
                         </div>
                     </div>
@@ -242,12 +249,12 @@
 
 
         <li class="col-12 col-md-6 g-topic pr-0">
-            <span class="g-topic-title">Institutional Education</span><br>
+            <span orb="institutionalEducation" class="g-topic-title">Institutional Education</span><br>
             <ol class="container-fluid" reversed type="1">
                 <li class="pb-2">
-                    <span class="g-topic-title-minor">UTFPR - Master of Science in Applied Computing</span>
+                    <span orb="utfprTitle" class="g-topic-title-minor">UTFPR - Master of Science in Applied Computing</span>
                     <div class="row">
-                        <div class="col pr-2">
+                        <div orb="utfprText" class="col pr-2">
                             <p class="g-topic-text">
                                 Researching how to bring value from current microservice principles and standards to
                                 game development architecture. What are the commons and how it can take benefits from
@@ -256,18 +263,18 @@
                         </div>
                         <div class="col-auto g-timeline px-1">
                             <div class="d-flex flex-column" style="height: 100%">
-                                <span class="g-topic-date mb-auto float-left"><i class="material-icons g-timeline-dot">fiber_manual_record</i>On hold</span>
+                                <span class="g-topic-date mb-auto float-left"><i class="material-icons g-timeline-dot">fiber_manual_record</i><span orb="onHold">On hold</span></span>
                                 <span class="my-auto pl-2 g-timeline-range"> - </span>
-                                <span class="g-topic-date mt-auto float-left"><i class="material-icons g-timeline-dot">fiber_manual_record</i>Jan/2017</span>
+                                <span class="g-topic-date mt-auto float-left"><i class="material-icons g-timeline-dot">fiber_manual_record</i><span orb="jan2017">Jan/2017</span></span>
                             </div>
                         </div>
                     </div>
                 </li>
 
                 <li class="pb-2">
-                    <span class="g-topic-title-minor">Universidade Positivo - Specialization in Agile Software Engineering</span>
+                    <span orb="upTitle" class="g-topic-title-minor">Universidade Positivo - Specialization in Agile Software Engineering</span>
                     <div class="row">
-                        <div class="col pr-2">
+                        <div orb="upText" class="col pr-2">
                             <p class="g-topic-text">
                                 I've incorporated agile values to standard software development processes, guaranteeing
                                 an undeniable quality of the product. I also learnt current models, concepts, practices
@@ -277,18 +284,18 @@
                         </div>
                         <div class="col-auto g-timeline px-1">
                             <div class="d-flex flex-column" style="height: 100%">
-                                <span class="g-topic-date mb-auto float-left"><i class="material-icons g-timeline-dot">fiber_manual_record</i>Feb/2017</span>
-                                <span class="my-auto pl-2 g-timeline-range">2.1 years</span>
-                                <span class="g-topic-date mt-auto float-left"><i class="material-icons g-timeline-dot">fiber_manual_record</i>Jan/2015</span>
+                                <span class="g-topic-date mb-auto float-left"><i class="material-icons g-timeline-dot">fiber_manual_record</i><span orb="feb2017">Feb/2017</span></span>
+                                <span class="my-auto pl-2 g-timeline-range">2.1 <span orb="years">years</span></span>
+                                <span class="g-topic-date mt-auto float-left"><i class="material-icons g-timeline-dot">fiber_manual_record</i><span orb="jan2015">Jan/2015</span></span>
                             </div>
                         </div>
                     </div>
                 </li>
 
                 <li class="pb-2">
-                    <span class="g-topic-title-minor">UECE - Bachelor in Computer Science with emphasis in Software Engineering</span>
+                    <span orb="ueceTitle" class="g-topic-title-minor">UECE - Bachelor in Computer Science with emphasis in Software Engineering</span>
                     <div class="row">
-                        <div class="col pr-2">
+                        <div orb="ueceText" class="col pr-2">
                             <p class="g-topic-text">
                                 Object Oriented Programming, Programming Languages Concepts, Design Patterns, Computer
                                 Graphics, Data Structures, Human Machine Interface, Project Management, System Analysis
@@ -297,17 +304,15 @@
                         </div>
                         <div class="col-auto g-timeline px-1">
                             <div class="d-flex flex-column" style="height: 100%">
-                                <span class="g-topic-date mb-auto float-left"><i class="material-icons g-timeline-dot">fiber_manual_record</i>Apr/2015</span>
-                                <span class="my-auto pl-2 g-timeline-range">7.2 years</span>
-                                <span class="g-topic-date mt-auto float-left"><i class="material-icons g-timeline-dot">fiber_manual_record</i>Sep/2007</span>
+                                <span class="g-topic-date mb-auto float-left"><i class="material-icons g-timeline-dot">fiber_manual_record</i><span orb="apr2015">Apr/2015</span></span>
+                                <span class="my-auto pl-2 g-timeline-range">7.2 <span orb="years">years</span></span>
+                                <span class="g-topic-date mt-auto float-left"><i class="material-icons g-timeline-dot">fiber_manual_record</i><span orb="sep2017">Sep/2007</span></span>
                             </div>
                         </div>
                     </div>
                 </li>
             </ol>
         </li>
-
-
     </ol>
 </div>
 

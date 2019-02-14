@@ -1,6 +1,17 @@
 pt_br = {
     _language: 'pt_br',
     years: 'anos',
+    now: 'Hoje',
+    aug2017: 'Aug/2017',
+    jul2017: 'Jul/2017',
+    jan2015: 'Jan/2015',
+    dec2014: 'Dez/2014',
+    may2010: 'Mai/2010',
+    jan2017: "Jan/2017",
+    feb2017: "Fev/2017",
+    apr2015: "Abr/2015",
+    sep2007: "Set/2007",
+    onHold: "Em Espera",
     subtitle: 'Consultor de Desenvolvimento de Software',
     summary: 'Resumo',
     "summary-text": "<p>     Eu sou um fazedor. Entusiasta sobre tudo e definitivamente apaixonado pela vida e pelo " +
@@ -34,9 +45,9 @@ pt_br = {
         "                    <li>Astronomia;</li>\n" +
         "                    <li>Campo minado; e</li>\n" +
         "                    <li>Desenvolvimento de jogos.</li>",
-    conferencePresentations: "Apresentações em conferências",
-    conferencePresentationsText: "<p>\n" +
-        "                    Eu já discursei em uma boa quantidade de conferências e em aulas de desenvolvimento de " +
+    presentations: "Apresentações",
+    presentationsText: "<p>\n" +
+        "                   Discursei em uma boa quantidade de conferências e em aulas de desenvolvimento de " +
         "                   softwares. Tanto em pequenas quanto em grandes em assuntos, e sobre diversificados, " +
         "                   especialmente em desenvolvimento de jogos e arquitetura de software. Acredito que meu maior " +
         "                   feito nessa nessa categoria seja a apresentação realizada no <a\n" +
@@ -47,13 +58,63 @@ pt_br = {
         "                        href=\"http://lopidio.github.io/stacker\"\n" +
         "                        class=\"g-topic-text\" style=\"color: #9FB630\">stacker</a>.\n" +
         "                </p>",
-    professionalSkills: "HAbilidades Profissionals",
+    professionalSkills: "Habilidades Profissionals",
     professionalSkillsText: "                <p>\n" +
         "                    Arquitetura de software; princípios de orientação ao objeto; padrões de projeto; filosofia" +
         "                    ágil; automação de testes; codificador limpo; integração de sistemas; banco de dados " +
         "                    relacionais e não relacionais; serviços na nuvem; microsserviços; sistemas distribuídos, " +
         "                    internet das coisas; entrega contínua; desenvolvimento web fullstack; desenvolvimento " +
         "                    mobile; sistemas embarcados; linux; etc.\n" +
-        "                </p>\n"
+        "                </p>\n",
+    professionalExperience: "Experiência Profissional",
+    thoughtWorksJobTitle: "Thoughtworks - Consultor de Desenvolvimento de Software Sênior",
+    thoughtWorksJobText: "<p class=\"g-topic-text\">\n" +
+        "                                Quatro prohetos diferentes na primeira conta em menos de um ano e meio.\n" +
+        "                                De sistemas embarcados com C/C++, tecnologias frontent com ReactJS/Redux até " +
+        "                                soluções em nuvem com Java/GoCD. O que acredito explicitar o que eu disse sobre" +
+        "                                ser polivalente. Provendo, acima de tudo, habilidades ágeis para alcançar" +
+        "                                soluções distribuídas e orientadas a mensagense fornecendo uma estratégia de " +
+        "                                plataforma digital digital. Ou seja, oferecer uma abordagem que impulsiona o" +
+        "                                poder que uma empresa já possui." +
+        "                            </p>",
+    bematechJobTitle: "Bematech - Analista de Desenvolvimento de Produto Sênior",
+    bematechJobText: "<p class=\"g-topic-text\">\n" +
+        "                                Principal desenvolvedor ede um dos produtos chave no momento. Além disso, com " +
+        "                                uma certa recorrência, era necessária uma habilidade humana para lidar com " +
+        "                                clientes e funcionsários do governo, as principais partes interessadas.\n" +
+        "                            </p>\n" +
+        "                            <p class=\"g-topic-text\">\n" +
+        "                                Modelando a arquitetura e o comportamento do sistema do primeiro projeto IoT da" +
+        "                                da empresa: uma impressora inteligente capaz de capturar telemetrias, " +
+        "                                quantidade de papel impresso, status de conexão com a internet, etc. " +
+        "                                O que demandou conhecimento em microsserviçoes embarcados, aplicaçòes desktop," +
+        "                                desenvolvimento web fullstack, e serviços AWS.\n" +
+        "                            </p>",
+    bimoJobTitle: "Bimo UFC - Analista de Sistemas",
+    bimoJobText: "<p class=\"g-topic-text\">\n" +
+        "                                Desenvolvendo sistemas embarcados com C/C++ e jogos para portáteis com Objective-C." +
+        "                                Mineração de dados para o governo do estado.\n" +
+        "                            </p>",
+    institutionalEducation: "Escolaridade",
+    utfprTitle: "UTFPR - Mestrado em Computação aplicada",
+    utfprText: "<p class=\"g-topic-text\">\n" +
+        "                                Pesquisando em como trazer valor a partir de padrões e princípios da " +
+        "                                arquitetura de microsserviços para o desenvolvimento de jogos. " +
+        "                                O propósito é elencar quais são as interseções da práticas e quais benefícios " +
+        "                                podem ser tirados a partir do estudo." +
+        "                            </p>",
+    upTitle: "Universidade Positivo - Especialização em Engenharia de Software Ágil",
+    upText: "<p class=\"g-topic-text\">\n" +
+        "                                Agreguei valores ágeis para os aspectos comuns nos processos de desenvolvimento " +
+        "                                garantindo a qualidade inegável do produto. Além disso, incorporei modelos, " +
+        "                                conceitos e práticas correntes no âmbito mundial para implementação e " +
+        "                                institucionalização da engenharia de software." +
+        "                            </p>",
+    ueceTitle: "UECE - Bacharelado em Ciência da Computação com ênfase em Engenharia de Software",
+    ueceText: "<p class=\"g-topic-text\">\n" +
+        "                                Programação Orientada a Objetos, Conceitos de Linguagem de Programação, " +
+        "                                Padrões de Projeto, Computação Gráfica, Estrutura de Dados, Interface " +
+        "                                Homem-Máquina, Gerência de Projetos, Análise de Sistemas, etc.\n" +
+        "                            </p>",
 
 };
