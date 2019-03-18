@@ -49,9 +49,9 @@ en = {
         "                    profile presentation was at <a\n" +
         "                        href=\"http://www.thedevelopersconference.com.br/tdc/2018/saopaulo/trilha-devtest\"\n" +
         "                        class=\"g-topic-text\" style=\"font-weight: bold\">The Developers Conference - SP</a> about two\n" +
-        "                    personal projects of mine: <a href=\"http://github.com/lopidio/enqueuer\" class=\"g-topic-text\"\n" +
+        "                    personal projects of mine: <a href=\"https://enqueuer-land.github.io/enqueuer\" class=\"g-topic-text\"\n" +
         "                                                  style=\"color: #9FB630\">enqueuer</a> and <a\n" +
-        "                        href=\"http://lopidio.github.io/stacker\"\n" +
+        "                        href=\"https://lopidio.github.io/stacker\"\n" +
         "                        class=\"g-topic-text\" style=\"color: #9FB630\">stacker</a>.\n" +
         "                </p>",
     professionalSkills: "Professional Skills",
