@@ -15,7 +15,7 @@ en = {
     subtitle: 'Software Development Consultant',
     summary: 'Summary',
     "summary-text": "<p>     I am a doer. Enthusiastic about everything, definitely in love with life and the desire to evolve\n" +
-        "                    everyone's abilities, including mine. Full of personal projects and goals and the strong inclination\n" +
+        "                    everyone's skills, including mine. Full of personal projects and goals and the strong inclination\n" +
         "                    to fulfill them all. Agile values guide my behavior. I like saying I live an agile life and apply\n" +
         "                    the core concept of it to my own life: react to change rather than get stuck to the plan.\n" +
         "                </p>\n" +
