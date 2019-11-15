@@ -155,8 +155,8 @@
 
 .g-header-body-divider {
     width: 100%;
-    border-top: solid 3px var(--color-dark-secondary);
-    border-bottom: solid 3px var(--color-light-secondary);
+    border-top: solid 2px var(--color-dark-secondary);
+    border-bottom: solid 2px var(--color-light-secondary);
 }
 
 @media (max-width: 820px) {

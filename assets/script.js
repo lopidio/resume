@@ -1,4 +1,4 @@
-let titles = ["Lopídio", "Guilherme Moraes", "Virgs"];
+let titles = ["Lopídio", "Guilherme Virgs Moraes"];
 
 function changeTitle() {
     titles = titles.concat(titles.splice(0, 1));
@@ -23,4 +23,4 @@ function getYearsFromNow(date)
     return Math.trunc(diff*10/365.25)/10;
 }
 
-document.getElementById('timeInLastJobElement').innerHTML = getYearsFromNow(new Date(2017, 7)) + ' ';
+document.getElementById('timeInLastJobElement').innerHTML = getYearsFromNow(new Date(2019, 7)) + ' ';

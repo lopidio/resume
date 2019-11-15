@@ -12,7 +12,7 @@ pt_br = {
     apr2015: "Abr/2015",
     sep2007: "Set/2007",
     onHold: "Em Espera",
-    subtitle: 'Consultor de Desenvolvimento de Software',
+    subtitle: 'Engenheiro de Software',
     summary: 'Resumo',
     "summary-text": "<p>     Eu sou um fazedor. Entusiasta sobre tudo e definitivamente apaixonado pela vida e pelo " +
         "                    desejo de aprimorar a habilidade de todos, inclusive a minha. Repleto de projetos pessoais " +
@@ -47,15 +47,17 @@ pt_br = {
         "                    <li>Desenvolvimento de jogos.</li>",
     presentations: "Apresentações",
     presentationsText: "<p>\n" +
-        "                   Discursei em uma boa quantidade de conferências e em aulas de desenvolvimento de " +
-        "                   softwares. Tanto em pequenas quanto em grandes em assuntos, e sobre diversificados, " +
-        "                   especialmente em desenvolvimento de jogos e arquitetura de software. Acredito que meu maior " +
-        "                   feito nessa nessa categoria seja a apresentação realizada no <a\n" +
+        "                   Discursei em algumas dezenas de conferências e em aulas de desenvolvimento de " +
+        "                   softwares. Tanto em pequenas quanto em grandes em assuntos, sobre diversificados, " +
+        "                   especialmente em desenvolvimento de jogos, testes de sistemas e arquitetura de software. " +
+        "                   Destaco as apresentações do <a\n" +
         "                        href=\"http://www.thedevelopersconference.com.br/tdc/2018/saopaulo/trilha-devtest\"\n" +
-        "                        class=\"g-topic-text\" style=\"font-weight: bold\">The Developers Conference - SP</a>" +
+        "                        class=\"g-topic-text\" style=\"font-weight: bold\">The Developers Conference - SP (2018)</a>" +
+        "                   e <a href=\"https://devday.devisland.com\"\n" +
+        "                        class=\"g-topic-text\" style=\"font-weight: bold\">DevDay - MG (2019)</a>" +
         "                    sobre dois projetos pessoais meus: <a href=\"https://enqueuer-land.github.io/enqueuer\" class=\"g-topic-text\"\n" +
         "                                                  style=\"color: #9FB630\">enqueuer</a> e <a\n" +
-        "                        href=\"https://lopidio.github.io/stacker\"\n" +
+        "                        href=\"https://virgs.github.io/stacker\"\n" +
         "                        class=\"g-topic-text\" style=\"color: #9FB630\">stacker</a>.\n" +
         "                </p>",
     professionalSkills: "Habilidades Profissionais",
@@ -67,7 +69,15 @@ pt_br = {
         "                    mobile; sistemas embarcados; linux; etc.\n" +
         "                </p>\n",
     professionalExperience: "Experiência Profissional",
-    thoughtWorksJobTitle: "Thoughtworks - Consultor de Desenvolvimento de Software Sênior",
+    iFoodJobTitle: "<a style='color: var(--color-dark-primary); text-decoration: none;' href='https://www.ifood.com.br'>iFood</a> - Engenheiro de Software Especialista",
+    iFoodJobText: "<p class=\"g-topic-text\">\n" +
+        "                                Engenheiro nômade e integrante do time responsável pela autenticação de usuários comuns.\n" +
+        "                                Gerenciando, desenvolvendo e mantendo sistemas de grande impacto e de altíssima escalabilidade" +
+        "                                com dezenas de milhões de acessos diários.\n" +
+        "                                Usando, principalmente, a gama de serviço disponível pela AWS, Golang, k8s e uma infinidade de ferramentas" +
+        "                                de monitorias e métricas da comunidade." +
+        "                            </p>",
+    thoughtWorksJobTitle: "<a style='color: var(--color-dark-primary); text-decoration: none;' href='https://www.thoughtworks.com'>Thoughtworks</a> - Consultor de Desenvolvimento de Software Sênior",
     thoughtWorksJobText: "<p class=\"g-topic-text\">\n" +
         "                                Quatro prohetos diferentes na primeira conta em menos de um ano e meio.\n" +
         "                                De sistemas embarcados com C/C++, tecnologias frontent com ReactJS/Redux até " +
@@ -77,14 +87,14 @@ pt_br = {
         "                                plataforma digital digital. Ou seja, oferecer uma abordagem que impulsiona o" +
         "                                poder que uma empresa já possui." +
         "                            </p>",
-    bematechJobTitle: "Bematech - Analista de Desenvolvimento de Produto Sênior",
+    bematechJobTitle: "<a style='color: var(--color-dark-primary); text-decoration: none;' href='https://www.bematech.com.br'>Bematech</a> - Analista de Desenvolvimento de Produto Sênior",
     bematechJobText: "<p class=\"g-topic-text\">\n" +
         "                                Principal desenvolvedor ede um dos produtos chave no momento. Além disso, com " +
         "                                uma certa recorrência, era necessária uma habilidade humana para lidar com " +
-        "                                clientes e funcionsários do governo, as principais partes interessadas.\n" +
+        "                                clientes e funcionários do governo, as principais partes interessadas.\n" +
         "                            </p>\n" +
         "                            <p class=\"g-topic-text\">\n" +
-        "                                Modelando a arquitetura e o comportamento do sistema do primeiro projeto IoT da" +
+        "                                Modelando a arquitetura e o comportamento do sistema do primeiro projeto IoT" +
         "                                da empresa: uma impressora inteligente capaz de capturar telemetrias, " +
         "                                quantidade de papel impresso, status de conexão com a internet, etc. " +
         "                                O que demandou conhecimento em microsserviçoes embarcados, aplicaçòes desktop," +
@@ -96,21 +106,21 @@ pt_br = {
         "                                Mineração de dados para o governo do estado.\n" +
         "                            </p>",
     institutionalEducation: "Escolaridade",
-    utfprTitle: "UTFPR - Mestrado em Computação aplicada",
+    utfprTitle: "<a style='color: var(--color-dark-primary); text-decoration: none;' href='http://portal.utfpr.edu.br/'>UTFPR</a> - Mestrado em Computação aplicada",
     utfprText: "<p class=\"g-topic-text\">\n" +
         "                                Pesquisando em como trazer valor a partir de padrões e princípios da " +
         "                                arquitetura de microsserviços para o desenvolvimento de jogos. " +
         "                                O propósito é elencar quais são as interseções da práticas e quais benefícios " +
         "                                podem ser tirados a partir do estudo." +
         "                            </p>",
-    upTitle: "Universidade Positivo - Especialização em Engenharia de Software Ágil",
+    upTitle: "<a style='color: var(--color-dark-primary); text-decoration: none;' href='https://www.up.edu.br/index.html/'>Universidade Positivo</a> - Especialização em Engenharia de Software Ágil",
     upText: "<p class=\"g-topic-text\">\n" +
         "                                Agreguei valores ágeis para os aspectos comuns nos processos de desenvolvimento " +
         "                                garantindo a qualidade inegável do produto. Além disso, incorporei modelos, " +
         "                                conceitos e práticas correntes no âmbito mundial para implementação e " +
         "                                institucionalização da engenharia de software." +
         "                            </p>",
-    ueceTitle: "UECE - Bacharelado em Ciência da Computação com ênfase em Engenharia de Software",
+    ueceTitle: "<a style='color: var(--color-dark-primary); text-decoration: none;' href='http://www.uece.br'>UECE</a> - Bacharelado em Ciência da Computação com ênfase em Engenharia de Software",
     ueceText: "<p class=\"g-topic-text\">\n" +
         "                                Programação Orientada a Objetos, Conceitos de Linguagem de Programação, " +
         "                                Padrões de Projeto, Computação Gráfica, Estrutura de Dados, Interface " +

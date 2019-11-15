@@ -12,7 +12,7 @@ en = {
     apr2015: "Apr/2015",
     sep2007: "Sep/2007",
     onHold: "On Hold",
-    subtitle: 'Software Development Consultant',
+    subtitle: 'Software Engineer',
     summary: 'Summary',
     "summary-text": "<p>     I am a doer. Enthusiastic about everything, definitely in love with life and the desire to evolve\n" +
         "                    everyone's skills, including mine. Full of personal projects and goals and the strong inclination\n" +
@@ -46,12 +46,14 @@ en = {
     presentationsText: "<p>\n" +
         "                    I've done quite a few conference presentations and software development classes, both large and\n" +
         "                    small, on different subjects, specially on game development and software architecture. My highest\n" +
-        "                    profile presentation was at <a\n" +
+        "                    profile presentation were at <a\n" +
         "                        href=\"http://www.thedevelopersconference.com.br/tdc/2018/saopaulo/trilha-devtest\"\n" +
-        "                        class=\"g-topic-text\" style=\"font-weight: bold\">The Developers Conference - SP</a> about two\n" +
-        "                    personal projects of mine: <a href=\"https://enqueuer-land.github.io/enqueuer\" class=\"g-topic-text\"\n" +
+        "                        class=\"g-topic-text\" style=\"font-weight: bold\">The Developers Conference - SP</a>" +
+        "                    and <a href=\"https://devday.devisland.com\"\n" +
+        "                        class=\"g-topic-text\" style=\"font-weight: bold\">DevDay - MG (2019)</a>" +
+        "                    about two personal projects of mine: <a href=\"https://enqueuer-land.github.io/enqueuer\" class=\"g-topic-text\"\n" +
         "                                                  style=\"color: #9FB630\">enqueuer</a> and <a\n" +
-        "                        href=\"https://lopidio.github.io/stacker\"\n" +
+        "                        href=\"https://virgs.github.io/stacker\"\n" +
         "                        class=\"g-topic-text\" style=\"color: #9FB630\">stacker</a>.\n" +
         "                </p>",
     professionalSkills: "Professional Skills",
@@ -62,7 +64,14 @@ en = {
         "                    continuous delivery; fullstack web development; mobile; embedded systems; linux; etc.\n" +
         "                </p>\n",
     professionalExperience: "Professional Experience",
-    thoughtWorksJobTitle: "Thoughtworks - Software Development Consultant Senior",
+    iFoodJobTitle: "<a style='color: var(--color-dark-primary); text-decoration: none;' href='https://www.ifood.com.br'>iFood</a> - Specialist Software Engineer",
+    iFoodJobText: "<p class=\"g-topic-text\">\n" +
+        "                                Nomad engineer and regular user authentication team member.\n" +
+        "                                Managing, developing, and maintaining, essential and high scalability systems" +
+        "                                with million dozens access per day.\n" +
+        "                                Using several AWS services, Golang, k8s and a lot of monitoring and metrics tools." +
+        "                            </p>",
+    thoughtWorksJobTitle: "<a style='color: var(--color-dark-primary); text-decoration: none;' href='https://www.thoughtworks.com'>Thoughtworks</a> - Software Development Consultant Senior",
     thoughtWorksJobText: "<p class=\"g-topic-text\">\n" +
         "                                Four different projects of the very first client in less than a year and a half.\n" +
         "                                From embedded systems with C/C++, frontend technologies with ReactJS/Redux to cloud\n" +
@@ -71,7 +80,7 @@ en = {
         "                                systems and provide a digital platform strategy. Which means, offer an approach that " +
         "                                sets free the power that the company already possessed.\n" +
         "                            </p>",
-    bematechJobTitle: "Bematech - Product Development Analyst Senior",
+    bematechJobTitle: "<a style='color: var(--color-dark-primary); text-decoration: none;' href='https://www.bematech.com.br'>Bematech</a> - Product Development Analyst Senior",
     bematechJobText: "<p class=\"g-topic-text\">\n" +
         "                                Main developer and main maintainer of one of the key products at the time. Besides doing\n" +
         "                                that, usually I had to have soft skills to deal with customers and the government, the\n" +
@@ -89,20 +98,20 @@ en = {
         "                                State government.\n" +
         "                            </p>",
     institutionalEducation: "Institutional Education",
-    utfprTitle: "UTFPR - Master of Science in Applied Computing",
+    utfprTitle: "<a style='color: var(--color-dark-primary); text-decoration: none;' href='http://portal.utfpr.edu.br/'>UTFPR</a> - Master of Science in Applied Computing",
     utfprText: "<p class=\"g-topic-text\">\n" +
         "                                Researching on how to bring value from current microservice principles and standards to\n" +
         "                                game development architecture. What are the commons and how it can take benefits from\n" +
         "                                it.\n" +
         "                            </p>",
-    upTitle: "Universidade Positivo - Specialization in Agile Software Engineering",
+    upTitle: "<a style='color: var(--color-dark-primary); text-decoration: none;' href='https://www.up.edu.br/index.html/'>Universidade Positivo</a> - Specialization in Agile Software Engineering",
     upText: "<p class=\"g-topic-text\">\n" +
         "                                I've incorporated agile values to standard software development processes, guaranteeing\n" +
         "                                an undeniable quality of the product. I also learnt current models, concepts, practices\n" +
         "                                and technology of the world standard for implementation and institutionalization of\n" +
         "                                software engineering.\n" +
         "                            </p>",
-    ueceTitle: "UECE - Bachelor in Computer Science with emphasis in Software Engineering",
+    ueceTitle: "<a style='color: var(--color-dark-primary); text-decoration: none;' href='http://www.uece.br'>UECE</a> - Bachelor in Computer Science with emphasis in Software Engineering",
     ueceText: "<p class=\"g-topic-text\">\n" +
         "                                Object Oriented Programming, Programming Languages Concepts, Design Patterns, Computer\n" +
         "                                Graphics, Data Structures, Human Machine Interface, Project Management, System Analysis\n" +
