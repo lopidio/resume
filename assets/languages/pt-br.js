@@ -57,7 +57,7 @@ pt_br = {
         "                        class=\"g-topic-text\" style=\"font-weight: bold\">DevDay - MG (2019)</a>" +
         "                    sobre dois projetos pessoais meus: <a href=\"https://enqueuer-land.github.io/enqueuer\" class=\"g-topic-text\"\n" +
         "                                                  style=\"color: #9FB630\">enqueuer</a> e <a\n" +
-        "                        href=\"https://virgs.github.io/stacker\"\n" +
+        "                        href=\"https://enqueuer-land.github.io/stacker\"\n" +
         "                        class=\"g-topic-text\" style=\"color: #9FB630\">stacker</a>.\n" +
         "                </p>",
     professionalSkills: "Habilidades Profissionais",
