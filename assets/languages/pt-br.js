@@ -25,7 +25,7 @@ pt_br = {
         "                    feito até hoje. Acredito ter diversas valências. Dentre as quais, destaco: sistemas " +
         "                    embarcados, aplicações desktops, desenvolvimento web fullstack, diversas linguagens de " +
         "                    programação e paradigmas, arquiteturas em nuvem e CI/CD. Bom comportamento profissional," +
-        "                    Explicador nato, e, certamente, alguém que aprende rápido." +
+        "                    explicador nato, e, certamente, alguém que aprende rápido." +
         "                </p>" +
         "                <p>" +
         "                    Além da parada de desenvolvimento de software, eu fiz de tudo um pouco: auxiliar de cantina" +
