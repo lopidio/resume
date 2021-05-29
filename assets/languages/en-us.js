@@ -2,6 +2,8 @@ en = {
     _language: 'en',
     years: 'years',
     now: 'Now',
+    aug2019: 'Aug/2019',
+    jul2019: 'Jul/2019',
     aug2017: 'Aug/2017',
     jul2017: 'Jul/2017',
     jan2015: 'Jan/2015',
